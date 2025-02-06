@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>DOM Operations Test</title><script>window.onload=function(){setInterval(()=>{for(let i=0;i<1000;i++){let div=document.createElement('div');div.innerHTML=`<p><span>Test ${i}</span></p>`;document.body.appendChild(div);console.log(div.offsetHeight);document.body.removeChild(div)}},10)}</script></head><body></body></html>
