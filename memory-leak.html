@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Memory Leak Test</title><script>let leakedArray=[];setInterval(function(){for(let i=0;i<10000;i++){leakedArray.push(new Array(10000).fill('test'))}},100);</script></head><body><div>Memory Leak Test</div></body></html>
